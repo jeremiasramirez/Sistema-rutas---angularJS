@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" ng-app="rout">
 <head>
-
 	<!-- set all character  -->
 	<meta charset="UTF-8">
 
@@ -23,23 +22,30 @@
 	<!-- config angularJS -->
 	<script src="public/js/config.js"></script>
 
+	<!-- my library css-->
+	<link rel="stylesheet" href="public/css/lib/jeremias-lib/jeremias-lib.css">
+	
+	<!-- main css-->
+	<link rel="stylesheet" href="public/css/main.css">
 
+	<!-- library extern css for animation-->
+	<link rel="stylesheet" href="public/css/lib/animate/animate.css">
 
 </head>
-
-
 <body>
 
 
 <!-- menu of navigation -->
 	<div>
-		<ul>
+		<ul class="navigation">
 
 			
 			<!-- redirect to public/js/config.js -->
-			<li><a href="#!/home">Home</a></li>
-			<li><a href="#!/perfil">Perfil</a></li>
-			<li><a href="#!/config">Config</a></li>
+			<li class="list--item"><a href="#!/home">Home</a></li>
+			<li class="list--item"><a href="#!/perfil">Perfil</a></li>
+			<li class="list--item"><a href="#!/config">Config</a></li>
+			<li class="list--item"><a href="#!/notification">Notification</a></li>
+			<li class="list--item"><a href="#!/delete">Remove</a></li>
 
 
 		</ul>
