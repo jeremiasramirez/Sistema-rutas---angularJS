@@ -1,0 +1,57 @@
+body{
+	margin:0;
+}
+.navigation {
+	background-color: black;
+	border-radius:5px;
+	display: flex;
+	border:0;
+	justify-content: space-around;
+	padding: 1em;
+	align-items: center;
+
+}
+.list--item a{
+	display: inline-block;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+ }
+
+
+ /*
+
+	Responsive to min 400px
+
+
+ */
+@media screen and (max-width: 400px){
+	
+	
+	/*
+		set navigation mobile
+	*/
+	.navigation {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+	 }
+
+	 /*
+
+	 	set spacing to elemento
+
+	 */
+	 .list--item{
+	 	margin-bottom: 4px;
+	 	margin-top: 20px;
+	 }
+
+	 .list--item a {
+	 	letter-spacing: .8px;
+	 }
+
+}
